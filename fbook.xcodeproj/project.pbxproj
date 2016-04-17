@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDBC019E1CC402220036BEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC019D1CC402220036BEC5 /* AppDelegate.swift */; };
+		CDBC01A01CC402220036BEC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC019F1CC402220036BEC5 /* ViewController.swift */; };
+		CDBC01A31CC402220036BEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01A11CC402220036BEC5 /* Main.storyboard */; };
+		CDBC01A51CC402220036BEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01A41CC402220036BEC5 /* Assets.xcassets */; };
+		CDBC01A81CC402220036BEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01A61CC402220036BEC5 /* LaunchScreen.storyboard */; };
+		CDBC01B31CC402220036BEC5 /* fbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01B21CC402220036BEC5 /* fbookTests.swift */; };
+		CDBC01BE1CC402220036BEC5 /* fbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01BD1CC402220036BEC5 /* fbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDBC01AF1CC402220036BEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBC01921CC402220036BEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBC01991CC402220036BEC5;
+			remoteInfo = fbook;
+		};
+		CDBC01BA1CC402220036BEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBC01921CC402220036BEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBC01991CC402220036BEC5;
+			remoteInfo = fbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDBC019A1CC402220036BEC5 /* fbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBC019D1CC402220036BEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDBC019F1CC402220036BEC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDBC01A21CC402220036BEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDBC01A41CC402220036BEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBC01A71CC402220036BEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDBC01A91CC402220036BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC01AE1CC402220036BEC5 /* fbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBC01B21CC402220036BEC5 /* fbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbookTests.swift; sourceTree = "<group>"; };
+		CDBC01B41CC402220036BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC01B91CC402220036BEC5 /* fbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBC01BD1CC402220036BEC5 /* fbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbookUITests.swift; sourceTree = "<group>"; };
+		CDBC01BF1CC402220036BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBC01971CC402220036BEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01AB1CC402220036BEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01B61CC402220036BEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDBC01911CC402220036BEC5 = {
+			isa = PBXGroup;
+			children = (
+				CDBC019C1CC402220036BEC5 /* fbook */,
+				CDBC01B11CC402220036BEC5 /* fbookTests */,
+				CDBC01BC1CC402220036BEC5 /* fbookUITests */,
+				CDBC019B1CC402220036BEC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBC019B1CC402220036BEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC019A1CC402220036BEC5 /* fbook.app */,
+				CDBC01AE1CC402220036BEC5 /* fbookTests.xctest */,
+				CDBC01B91CC402220036BEC5 /* fbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBC019C1CC402220036BEC5 /* fbook */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC019D1CC402220036BEC5 /* AppDelegate.swift */,
+				CDBC019F1CC402220036BEC5 /* ViewController.swift */,
+				CDBC01A11CC402220036BEC5 /* Main.storyboard */,
+				CDBC01A41CC402220036BEC5 /* Assets.xcassets */,
+				CDBC01A61CC402220036BEC5 /* LaunchScreen.storyboard */,
+				CDBC01A91CC402220036BEC5 /* Info.plist */,
+			);
+			path = fbook;
+			sourceTree = "<group>";
+		};
+		CDBC01B11CC402220036BEC5 /* fbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC01B21CC402220036BEC5 /* fbookTests.swift */,
+				CDBC01B41CC402220036BEC5 /* Info.plist */,
+			);
+			path = fbookTests;
+			sourceTree = "<group>";
+		};
+		CDBC01BC1CC402220036BEC5 /* fbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBC01BD1CC402220036BEC5 /* fbookUITests.swift */,
+				CDBC01BF1CC402220036BEC5 /* Info.plist */,
+			);
+			path = fbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBC01991CC402220036BEC5 /* fbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBC01C21CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbook" */;
+			buildPhases = (
+				CDBC01961CC402220036BEC5 /* Sources */,
+				CDBC01971CC402220036BEC5 /* Frameworks */,
+				CDBC01981CC402220036BEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fbook;
+			productName = fbook;
+			productReference = CDBC019A1CC402220036BEC5 /* fbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDBC01AD1CC402220036BEC5 /* fbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBC01C51CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookTests" */;
+			buildPhases = (
+				CDBC01AA1CC402220036BEC5 /* Sources */,
+				CDBC01AB1CC402220036BEC5 /* Frameworks */,
+				CDBC01AC1CC402220036BEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBC01B01CC402220036BEC5 /* PBXTargetDependency */,
+			);
+			name = fbookTests;
+			productName = fbookTests;
+			productReference = CDBC01AE1CC402220036BEC5 /* fbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDBC01B81CC402220036BEC5 /* fbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBC01C81CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookUITests" */;
+			buildPhases = (
+				CDBC01B51CC402220036BEC5 /* Sources */,
+				CDBC01B61CC402220036BEC5 /* Frameworks */,
+				CDBC01B71CC402220036BEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBC01BB1CC402220036BEC5 /* PBXTargetDependency */,
+			);
+			name = fbookUITests;
+			productName = fbookUITests;
+			productReference = CDBC01B91CC402220036BEC5 /* fbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBC01921CC402220036BEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = patrick;
+				TargetAttributes = {
+					CDBC01991CC402220036BEC5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CDBC01AD1CC402220036BEC5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CDBC01991CC402220036BEC5;
+					};
+					CDBC01B81CC402220036BEC5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CDBC01991CC402220036BEC5;
+					};
+				};
+			};
+			buildConfigurationList = CDBC01951CC402220036BEC5 /* Build configuration list for PBXProject "fbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDBC01911CC402220036BEC5;
+			productRefGroup = CDBC019B1CC402220036BEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBC01991CC402220036BEC5 /* fbook */,
+				CDBC01AD1CC402220036BEC5 /* fbookTests */,
+				CDBC01B81CC402220036BEC5 /* fbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBC01981CC402220036BEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC01A81CC402220036BEC5 /* LaunchScreen.storyboard in Resources */,
+				CDBC01A51CC402220036BEC5 /* Assets.xcassets in Resources */,
+				CDBC01A31CC402220036BEC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01AC1CC402220036BEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01B71CC402220036BEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBC01961CC402220036BEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC01A01CC402220036BEC5 /* ViewController.swift in Sources */,
+				CDBC019E1CC402220036BEC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01AA1CC402220036BEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC01B31CC402220036BEC5 /* fbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBC01B51CC402220036BEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBC01BE1CC402220036BEC5 /* fbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDBC01B01CC402220036BEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBC01991CC402220036BEC5 /* fbook */;
+			targetProxy = CDBC01AF1CC402220036BEC5 /* PBXContainerItemProxy */;
+		};
+		CDBC01BB1CC402220036BEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBC01991CC402220036BEC5 /* fbook */;
+			targetProxy = CDBC01BA1CC402220036BEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDBC01A11CC402220036BEC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBC01A21CC402220036BEC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBC01A61CC402220036BEC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBC01A71CC402220036BEC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBC01C01CC402220036BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDBC01C11CC402220036BEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBC01C31CC402220036BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDBC01C41CC402220036BEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDBC01C61CC402220036BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fbook.app/fbook";
+			};
+			name = Debug;
+		};
+		CDBC01C71CC402220036BEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fbook.app/fbook";
+			};
+			name = Release;
+		};
+		CDBC01C91CC402220036BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fbook;
+			};
+			name = Debug;
+		};
+		CDBC01CA1CC402220036BEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBC01951CC402220036BEC5 /* Build configuration list for PBXProject "fbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC01C01CC402220036BEC5 /* Debug */,
+				CDBC01C11CC402220036BEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBC01C21CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC01C31CC402220036BEC5 /* Debug */,
+				CDBC01C41CC402220036BEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDBC01C51CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC01C61CC402220036BEC5 /* Debug */,
+				CDBC01C71CC402220036BEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDBC01C81CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBC01C91CC402220036BEC5 /* Debug */,
+				CDBC01CA1CC402220036BEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBC01921CC402220036BEC5 /* Project object */;
+}
