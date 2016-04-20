@@ -14,6 +14,21 @@
 		CDBC01A81CC402220036BEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01A61CC402220036BEC5 /* LaunchScreen.storyboard */; };
 		CDBC01B31CC402220036BEC5 /* fbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01B21CC402220036BEC5 /* fbookTests.swift */; };
 		CDBC01BE1CC402220036BEC5 /* fbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01BD1CC402220036BEC5 /* fbookUITests.swift */; };
+		CDBC01CC1CC402320036BEC5 /* listbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01CB1CC402320036BEC5 /* listbook.swift */; };
+		CDBC01CE1CC402C10036BEC5 /* ww.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01CD1CC402C10036BEC5 /* ww.txt */; };
+		CDBC01D01CC402F90036BEC5 /* listbook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC01CF1CC402F90036BEC5 /* listbook.storyboard */; };
+		CDBC01D21CC408460036BEC5 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC01D11CC408460036BEC5 /* StreamReader.swift */; };
+		CDF8C1B41CC4F8E1005140D5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF8C1B31CC4F8E1005140D5 /* libsqlite3.0.tbd */; };
+		CDF8C1BA1CC50A07005140D5 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1B71CC50A07005140D5 /* SQLiteDB.swift */; };
+		CDF8C1BB1CC50A07005140D5 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1B81CC50A07005140D5 /* SQLTable.swift */; };
+		CDF8C1BC1CC50A07005140D5 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1B91CC50A07005140D5 /* String-Extras.swift */; };
+		CDF8C1FC1CC56BB8005140D5 /* ReadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1FB1CC56BB8005140D5 /* ReadController.swift */; };
+		CDF8C1FE1CC56C5B005140D5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1FD1CC56C5B005140D5 /* Config.swift */; };
+		CDF8C2001CC59673005140D5 /* DDFilereader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C1FF1CC59673005140D5 /* DDFilereader.swift */; };
+		CDF8C2021CC59C3A005140D5 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = CDF8C2011CC59C3A005140D5 /* data.db */; };
+		CDF8C2041CC5A07C005140D5 /* txtparser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C2031CC5A07C005140D5 /* txtparser.swift */; };
+		CDF8C20B1CC5A26F005140D5 /* txtoperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C20A1CC5A26F005140D5 /* txtoperation.swift */; };
+		CDF8C20E1CC5BAF3005140D5 /* txtpages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8C20D1CC5BAF3005140D5 /* txtpages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,22 @@
 		CDBC01B91CC402220036BEC5 /* fbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBC01BD1CC402220036BEC5 /* fbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbookUITests.swift; sourceTree = "<group>"; };
 		CDBC01BF1CC402220036BEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC01CB1CC402320036BEC5 /* listbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listbook.swift; sourceTree = "<group>"; };
+		CDBC01CD1CC402C10036BEC5 /* ww.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ww.txt; sourceTree = "<group>"; };
+		CDBC01CF1CC402F90036BEC5 /* listbook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = listbook.storyboard; sourceTree = "<group>"; };
+		CDBC01D11CC408460036BEC5 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		CDF8C1B31CC4F8E1005140D5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CDF8C1B51CC4F924005140D5 /* SQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		CDF8C1B71CC50A07005140D5 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		CDF8C1B81CC50A07005140D5 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		CDF8C1B91CC50A07005140D5 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		CDF8C1FB1CC56BB8005140D5 /* ReadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadController.swift; sourceTree = "<group>"; };
+		CDF8C1FD1CC56C5B005140D5 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CDF8C1FF1CC59673005140D5 /* DDFilereader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDFilereader.swift; sourceTree = "<group>"; };
+		CDF8C2011CC59C3A005140D5 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		CDF8C2031CC5A07C005140D5 /* txtparser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = txtparser.swift; sourceTree = "<group>"; };
+		CDF8C20A1CC5A26F005140D5 /* txtoperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = txtoperation.swift; path = fbook/txtoperation.swift; sourceTree = "<group>"; };
+		CDF8C20D1CC5BAF3005140D5 /* txtpages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = txtpages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF8C1B41CC4F8E1005140D5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +109,15 @@
 		CDBC01911CC402220036BEC5 = {
 			isa = PBXGroup;
 			children = (
+				CDF8C20C1CC5BAE0005140D5 /* modal */,
+				CDF8C2011CC59C3A005140D5 /* data.db */,
+				CDF8C1B31CC4F8E1005140D5 /* libsqlite3.0.tbd */,
+				CDF8C2091CC5A256005140D5 /* operations */,
 				CDBC019C1CC402220036BEC5 /* fbook */,
 				CDBC01B11CC402220036BEC5 /* fbookTests */,
 				CDBC01BC1CC402220036BEC5 /* fbookUITests */,
 				CDBC019B1CC402220036BEC5 /* Products */,
+				CDF8C1B61CC50A07005140D5 /* SQLiteDB */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +137,18 @@
 				CDBC019D1CC402220036BEC5 /* AppDelegate.swift */,
 				CDBC019F1CC402220036BEC5 /* ViewController.swift */,
 				CDBC01A11CC402220036BEC5 /* Main.storyboard */,
+				CDBC01CD1CC402C10036BEC5 /* ww.txt */,
 				CDBC01A41CC402220036BEC5 /* Assets.xcassets */,
 				CDBC01A61CC402220036BEC5 /* LaunchScreen.storyboard */,
 				CDBC01A91CC402220036BEC5 /* Info.plist */,
+				CDBC01CB1CC402320036BEC5 /* listbook.swift */,
+				CDBC01CF1CC402F90036BEC5 /* listbook.storyboard */,
+				CDBC01D11CC408460036BEC5 /* StreamReader.swift */,
+				CDF8C1B51CC4F924005140D5 /* SQLite-Bridging-Header.h */,
+				CDF8C1FB1CC56BB8005140D5 /* ReadController.swift */,
+				CDF8C1FD1CC56C5B005140D5 /* Config.swift */,
+				CDF8C1FF1CC59673005140D5 /* DDFilereader.swift */,
+				CDF8C2031CC5A07C005140D5 /* txtparser.swift */,
 			);
 			path = fbook;
 			sourceTree = "<group>";
@@ -123,6 +169,32 @@
 				CDBC01BF1CC402220036BEC5 /* Info.plist */,
 			);
 			path = fbookUITests;
+			sourceTree = "<group>";
+		};
+		CDF8C1B61CC50A07005140D5 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8C1B71CC50A07005140D5 /* SQLiteDB.swift */,
+				CDF8C1B81CC50A07005140D5 /* SQLTable.swift */,
+				CDF8C1B91CC50A07005140D5 /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		CDF8C2091CC5A256005140D5 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8C20A1CC5A26F005140D5 /* txtoperation.swift */,
+			);
+			name = operations;
+			sourceTree = "<group>";
+		};
+		CDF8C20C1CC5BAE0005140D5 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8C20D1CC5BAF3005140D5 /* txtpages.swift */,
+			);
+			name = modal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +301,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBC01D01CC402F90036BEC5 /* listbook.storyboard in Resources */,
 				CDBC01A81CC402220036BEC5 /* LaunchScreen.storyboard in Resources */,
 				CDBC01A51CC402220036BEC5 /* Assets.xcassets in Resources */,
+				CDF8C2021CC59C3A005140D5 /* data.db in Resources */,
+				CDBC01CE1CC402C10036BEC5 /* ww.txt in Resources */,
 				CDBC01A31CC402220036BEC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDBC01D21CC408460036BEC5 /* StreamReader.swift in Sources */,
+				CDBC01CC1CC402320036BEC5 /* listbook.swift in Sources */,
+				CDF8C1FE1CC56C5B005140D5 /* Config.swift in Sources */,
+				CDF8C1BA1CC50A07005140D5 /* SQLiteDB.swift in Sources */,
 				CDBC01A01CC402220036BEC5 /* ViewController.swift in Sources */,
+				CDF8C1BC1CC50A07005140D5 /* String-Extras.swift in Sources */,
+				CDF8C20B1CC5A26F005140D5 /* txtoperation.swift in Sources */,
+				CDF8C2041CC5A07C005140D5 /* txtparser.swift in Sources */,
 				CDBC019E1CC402220036BEC5 /* AppDelegate.swift in Sources */,
+				CDF8C1BB1CC50A07005140D5 /* SQLTable.swift in Sources */,
+				CDF8C2001CC59673005140D5 /* DDFilereader.swift in Sources */,
+				CDF8C1FC1CC56BB8005140D5 /* ReadController.swift in Sources */,
+				CDF8C20E1CC5BAF3005140D5 /* txtpages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fbook/SQLite-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -414,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zengda.fbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fbook/SQLite-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +570,7 @@
 				CDBC01C41CC402220036BEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDBC01C51CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +579,7 @@
 				CDBC01C71CC402220036BEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDBC01C81CC402220036BEC5 /* Build configuration list for PBXNativeTarget "fbookUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +588,7 @@
 				CDBC01CA1CC402220036BEC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

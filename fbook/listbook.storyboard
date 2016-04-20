@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YjJ-b6-iGs">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Listbook Controller-->
+        <scene sceneID="BdG-IG-xJE">
+            <objects>
+                <viewController storyboardIdentifier="pdfPage" id="g7O-jI-zpt" customClass="listbookController" customModule="fbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gRY-Pj-1ob"/>
+                        <viewControllerLayoutGuide type="bottom" id="OTm-u5-JzZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R0j-de-PkI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0Z-JY-xpb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="        正在加载">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="......">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z0Z-JY-xpb" firstAttribute="leading" secondItem="R0j-de-PkI" secondAttribute="leading" id="LsY-pw-tu6"/>
+                            <constraint firstAttribute="trailing" secondItem="Z0Z-JY-xpb" secondAttribute="trailing" id="irK-4V-WYd"/>
+                            <constraint firstItem="Z0Z-JY-xpb" firstAttribute="bottom" secondItem="OTm-u5-JzZ" secondAttribute="top" id="uSI-4R-Afe"/>
+                            <constraint firstItem="Z0Z-JY-xpb" firstAttribute="top" secondItem="R0j-de-PkI" secondAttribute="top" id="xNb-IH-B6S"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="bookc" destination="Z0Z-JY-xpb" id="yOd-xd-6KA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggk-fM-Ive" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="925"/>
+        </scene>
+        <!--Read Controller-->
+        <scene sceneID="C7V-iB-vnw">
+            <objects>
+                <viewController id="YjJ-b6-iGs" customClass="ReadController" customModule="fbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i52-b7-77c"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kam-AB-xbD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M62-04-XpC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGZ-OK-Szu">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="09f-cF-mDU" appends="YES" id="9Dc-zf-VAo"/>
+                                    <segue destination="zPT-EO-6PB" kind="embed" identifier="embed" id="EAg-Ps-FzK"/>
+                                </connections>
+                            </containerView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8f2-d3-a8a">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title 1,2,3" id="MYm-XW-gf9">
+                                        <barButtonItem key="rightBarButtonItem" title="Done" id="HJQ-Fy-ycj">
+                                            <connections>
+                                                <action selector="done:" destination="YjJ-b6-iGs" id="nbf-KQ-eUi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZ3-6s-hMT">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="u7S-wI-aU6"/>
+                                </constraints>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mZ3-6s-hMT" firstAttribute="leading" secondItem="M62-04-XpC" secondAttribute="leading" id="6dy-LH-Szk"/>
+                            <constraint firstAttribute="trailing" secondItem="8f2-d3-a8a" secondAttribute="trailing" id="9Bj-jq-64X"/>
+                            <constraint firstItem="Kam-AB-xbD" firstAttribute="top" secondItem="mZ3-6s-hMT" secondAttribute="bottom" id="AjU-OS-eAr"/>
+                            <constraint firstItem="Kam-AB-xbD" firstAttribute="top" secondItem="gGZ-OK-Szu" secondAttribute="bottom" id="BWf-Hc-nRo"/>
+                            <constraint firstItem="gGZ-OK-Szu" firstAttribute="leading" secondItem="M62-04-XpC" secondAttribute="leading" id="HIZ-QP-mUu"/>
+                            <constraint firstItem="8f2-d3-a8a" firstAttribute="top" secondItem="i52-b7-77c" secondAttribute="bottom" id="W3c-5x-Axb"/>
+                            <constraint firstAttribute="trailing" secondItem="gGZ-OK-Szu" secondAttribute="trailing" id="kJa-sj-2cO"/>
+                            <constraint firstItem="gGZ-OK-Szu" firstAttribute="top" secondItem="i52-b7-77c" secondAttribute="bottom" id="nHz-jQ-qWU"/>
+                            <constraint firstItem="8f2-d3-a8a" firstAttribute="top" secondItem="M62-04-XpC" secondAttribute="topMargin" constant="20" id="pfs-eU-ft9"/>
+                            <constraint firstItem="8f2-d3-a8a" firstAttribute="leading" secondItem="M62-04-XpC" secondAttribute="leading" id="sDl-PD-Bta"/>
+                            <constraint firstAttribute="trailing" secondItem="mZ3-6s-hMT" secondAttribute="trailing" id="tpd-0V-qES"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="pfs-eU-ft9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="navBar" destination="8f2-d3-a8a" id="RTo-GA-B9h"/>
+                        <outlet property="navBarTopConstraint" destination="W3c-5x-Axb" id="iFj-GX-lsX"/>
+                        <outlet property="thumbsBottomConstraint" destination="AjU-OS-eAr" id="eTw-0c-vFh"/>
+                        <outlet property="thumbsContainerView" destination="mZ3-6s-hMT" id="KnV-lr-3QC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gSu-6l-z12" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="09f-cF-mDU">
+                    <connections>
+                        <action selector="tap:" destination="YjJ-b6-iGs" id="kXf-je-b8U"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="259" y="275"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="LEq-48-o2n">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="zPT-EO-6PB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HoL-kY-mll" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1087" y="280"/>
+        </scene>
+    </scenes>
+</document>
